@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(145, 103, 145);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.media-player{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0,0.8);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+} 
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+    border-radius: 50%;
+}
+.control{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 3px;
+}
+img{
+    width: 160px ;
+     margin-top: 5px;
+     height: 170px;
+     border: 1px solid black;
+     border-radius: 50%;
+     
+}
+
+.audio{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 17px; 
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.audio:hover{
+    background-color: transparent;
+    border:1px solid black;
+    color: white;
+}
+
+.audio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+button{
+    border-radius: 10px;
+    padding: 2px;
+    background-color: rgb(0, 0, 0,0.3);
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0,0.5);
+}
+
+svg{
+    color: wheat;
+}
+
+#mute:hover{
+ color: rgb(0, 0, 0,0.5);
+}
+
+#sound:hover{
+    color: rgb(0, 0, 0,0.5);
+   }
+   
+
